@@ -22,7 +22,7 @@ def get_weather(city):
         return None
 
 
-city = "Istanbul"
+city = "Bursa"
 weather_info = get_weather(city)
 if weather_info:
     print(f"Hava {city} şehri için:")
