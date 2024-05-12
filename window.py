@@ -98,13 +98,15 @@ EntryBox.pack()
 Result = Text(main_window, height=10, width=50)
 Result.pack(pady=10, padx=10)
 
+# Show Weather button
+Button = Button(main_window, text="Show Weather", command=show_weather)
+Button.pack(pady=20)
+
 # Canvas for displaying the weather icon
 canvas = Canvas(main_window, width=sunny_icon.width(), height=sunny_icon.height())
 canvas.pack()
 
-# Show Weather button
-Button = Button(main_window, text="Show Weather", command=show_weather)
-Button.pack(pady=20)
+
 
 # Running the main loop
 main_window.mainloop()
