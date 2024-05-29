@@ -3,7 +3,7 @@ from requests.exceptions import HTTPError
 
 
 def get_weather(city):
-    api_key = "f04eac3d3f871e7f61292f0a139352ef"
+    api_key = "YOUR_API_KEY"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     response = requests.get(url)
     if response.status_code == 200:
