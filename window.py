@@ -107,6 +107,5 @@ canvas = Canvas(main_window, width=sunny_icon.width(), height=sunny_icon.height(
 canvas.pack()
 
 
-
 # Running the main loop
 main_window.mainloop()
